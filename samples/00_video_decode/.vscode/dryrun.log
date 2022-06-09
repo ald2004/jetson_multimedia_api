@@ -1,0 +1,604 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/usr/src/jetson_multimedia_api/samples/00_video_decode'
+echo "Compiling: video_decode_csvparser.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c video_decode_csvparser.cpp
+echo "Compiling: video_decode_main.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c video_decode_main.cpp
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+ 
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+ 
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+ 
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+ 
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+ 
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+ 
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+ 
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+ 
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+ 
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+make -C /usr/src/jetson_multimedia_api/samples/common/classes
+ 
+make[1]: Entering directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+ 
+echo "Compiling: NvElementProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElementProfiler.cpp
+echo "Compiling: NvElement.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvElement.cpp
+echo "Compiling: NvApplicationProfiler.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvApplicationProfiler.cpp
+echo "Compiling: NvVideoDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoDecoder.cpp
+echo "Compiling: NvJpegEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegEncoder.cpp
+echo "Compiling: NvVideoConverter.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoConverter.cpp
+echo "Compiling: NvDrmRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvDrmRenderer.cpp
+echo "Compiling: NvLogging.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvLogging.cpp
+echo "Compiling: NvEglRenderer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvEglRenderer.cpp
+echo "Compiling: NvUtils.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvUtils.cpp
+echo "Compiling: NvBuffer.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBuffer.cpp
+echo "Compiling: NvJpegDecoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvJpegDecoder.cpp
+echo "Compiling: NvVideoEncoder.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvVideoEncoder.cpp
+echo "Compiling: NvV4l2ElementPlane.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2ElementPlane.cpp
+echo "Compiling: NvBufSurface.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvBufSurface.cpp
+echo "Compiling: NvV4l2Element.cpp"
+g++  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4" -c NvV4l2Element.cpp
+make[1]: Leaving directory '/usr/src/jetson_multimedia_api/samples/common/classes'
+echo "Linking: video_decode"
+g++ -o video_decode video_decode_csvparser.o video_decode_main.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElementProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElement.o /usr/src/jetson_multimedia_api/samples/common/classes/NvApplicationProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoConverter.o /usr/src/jetson_multimedia_api/samples/common/classes/NvDrmRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvLogging.o /usr/src/jetson_multimedia_api/samples/common/classes/NvEglRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvUtils.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBuffer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2ElementPlane.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBufSurface.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2Element.o  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4"  -lpthread -lv4l2 -lEGL -lGLESv2 -lX11 -lnvbufsurface -lnvbufsurftransform -lnvjpeg -lnvosd -ldrm -lcuda -lcudart -L"//usr/local/cuda/lib64" -L"/usr/lib/aarch64-linux-gnu" -L"/usr/lib/aarch64-linux-gnu/tegra" -L/opt/opencv_installed/lib  -lopencv_world
+make: Leaving directory '/usr/src/jetson_multimedia_api/samples/00_video_decode'
+ 

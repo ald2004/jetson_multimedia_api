@@ -1,0 +1,485 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for aarch64-unknown-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  1 18:28:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from '../Rules.mk', line 92)
+CPPFLAGS :=  -std=c++11 -I"/usr/src/jetson_multimedia_api/include" -I"/usr/src/jetson_multimedia_api/include/libjpeg-8b" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/cuda" -I"/usr/src/jetson_multimedia_api/samples/common/algorithm/trt" -I"//usr/local/cuda/include" -I"/usr/include/aarch64-linux-gnu" -I"/usr/include/libdrm" -I"/opt/opencv_installed/include/opencv4"
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /usr/src/jetson_multimedia_api/samples/00_video_decode
+# makefile
+SHELL = /bin/sh
+# makefile (from '../Rules.mk', line 75)
+NM = $(AT) $(CROSS_COMPILE)nm
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+EDITOR = vi
+# environment
+_ = /root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+# makefile (from '../Rules.mk', line 39)
+AT = @
+# environment
+JETSON_L4T = 34.1.1
+# makefile (from '../Rules.mk', line 1)
+MAKEFILE_LIST :=  Makefile ../Rules.mk
+# makefile (from '../Rules.mk', line 79)
+NVCC = $(AT) $(CUDA_PATH)/bin/nvcc -ccbin $(filter-out $(AT), $(CPP))
+# environment
+JETSON_VPI = ii libnvvpi2 2.0.14 arm64 NVIDIA Vision Programming Interface library
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from '../Rules.mk', line 61)
+CLASS_DIR := /usr/src/jetson_multimedia_api/samples/common/classes
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+JETSON_BOARD = P3737-000
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from '../Rules.mk', line 72)
+CC = $(AT) $(CROSS_COMPILE)gcc
+# environment
+JETSON_TYPE = UNKNOWN
+# makefile (from 'Makefile', line 40)
+OBJS := video_decode_csvparser.o video_decode_main.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElementProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElement.o /usr/src/jetson_multimedia_api/samples/common/classes/NvApplicationProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoConverter.o /usr/src/jetson_multimedia_api/samples/common/classes/NvDrmRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvLogging.o /usr/src/jetson_multimedia_api/samples/common/classes/NvEglRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvUtils.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBuffer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2ElementPlane.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBufSurface.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2Element.o
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 33)
+APP := video_decode
+# makefile (from '../Rules.mk', line 73)
+CPP = $(AT) $(CROSS_COMPILE)g++
+# environment
+VSCODE_CWD = /root
+# environment
+SSH_CONNECTION = 192.168.2.145 63701 192.168.2.217 22
+# environment
+PATH = /root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:.:/usr/local/bin:.:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/root/bin:/usr/local/cuda/bin:/root/bin:/usr/local/cuda/bin
+# makefile (from '../Rules.mk', line 71)
+LD = $(AT) $(CROSS_COMPILE)ld
+# environment
+JETSON_JETPACK = UNKNOWN
+# environment
+JETSON_OPENCV = 4.5.4
+# environment
+JETSON_VULKAN_INFO = 1.3.203
+# environment
+JETSON_CUDNN = 8.3.2.49
+# environment
+JETSON_CHIP_ID = 
+# makefile (from '../Rules.mk', line 74)
+AR = $(AT) $(CROSS_COMPILE)ar
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-e81da978-1476-455f-a5f7-eebc4de84d6b.sock
+# makefile (from '../Rules.mk', line 105)
+LDFLAGS :=  -lpthread -lv4l2 -lEGL -lGLESv2 -lX11 -lnvbufsurface -lnvbufsurftransform -lnvjpeg -lnvosd -ldrm -lcuda -lcudart -L"//usr/local/cuda/lib64" -L"/usr/lib/aarch64-linux-gnu" -L"/usr/lib/aarch64-linux-gnu/tegra"
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+JETSON_SOC = tegra23x
+# environment
+JETSON_CUDA = NOT_INSTALLED
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /usr/src/jetson_multimedia_api/samples/00_video_decode
+# default
+.LOADED := 
+# makefile (from '../Rules.mk', line 63)
+ALGO_TRT_DIR := /usr/src/jetson_multimedia_api/samples/common/algorithm/trt
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '../Rules.mk', line 49)
+TARGET_ROOTFS := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /root
+# environment
+LD_LIBRARY_PATH = :/usr/local/lib:/usr/local/cuda/lib64:/opt/opencv_installed/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/opencv_installed/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = root
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 35)
+SRCS := video_decode_csvparser.cpp video_decode_main.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvElementProfiler.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvElement.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvApplicationProfiler.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoDecoder.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegEncoder.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoConverter.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvDrmRenderer.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvLogging.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvEglRenderer.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvUtils.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvBuffer.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegDecoder.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoEncoder.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2ElementPlane.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvBufSurface.cpp /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2Element.cpp
+# environment
+SHLVL = 1
+# makefile (from '../Rules.mk', line 70)
+AS = $(AT) $(CROSS_COMPILE)as
+# makefile (from '../Rules.mk', line 44)
+TEGRA_ARMABI = aarch64-linux-gnu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = root
+# makefile
+.DEFAULT_GOAL := all
+# environment
+JETSON_CUDA_ARCH_BIN = NONE
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from '../Rules.mk', line 62)
+ALGO_CUDA_DIR := /usr/src/jetson_multimedia_api/samples/common/algorithm/cuda
+# environment
+JETSON_L4T_RELEASE = 34
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from '../Rules.mk', line 76)
+STRIP = $(AT) $(CROSS_COMPILE)strip
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.2.145 63701 22
+# environment
+MAIL = /var/mail/root
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '../Rules.mk', line 78)
+OBJDUMP = $(AT) $(CROSS_COMPILE)objdump
+# environment
+BROWSER = /root/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/helpers/browser.sh
+# environment
+JETSON_TENSORRT = 8.4.0.11
+# automatic
+%F = $(notdir $%)
+# environment
+JETSON_CODENAME = concord
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+JETSON_VISIONWORKS = NOT_INSTALLED
+# environment
+JETSON_OPENCV_CUDA = NO
+# makefile (from '../Rules.mk', line 66)
+CROSS_COMPILE := 
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+JETSON_L4T_REVISION = 1.1
+# environment
+PS1 = Boeedge:$PWD> 
+# environment
+JETSON_MODULE = UNKNOWN
+# environment
+LC_ALL = C
+# environment
+JETSON_BOARDIDS = 
+# automatic
+^F = $(notdir $^)
+# makefile (from '../Rules.mk', line 57)
+CUDA_PATH := /usr/local/cuda
+# makefile (from '../Rules.mk', line 77)
+OBJCOPY = $(AT) $(CROSS_COMPILE)objcopy
+# default
+SUFFIXES := 
+# makefile (from '../Rules.mk', line 60)
+TOP_DIR := /usr/src/jetson_multimedia_api
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+JETSON_SERIAL_NUMBER = 1421022112381
+# default
+MAKE_HOST := aarch64-unknown-linux-gnu
+# environment
+JETSON_MACHINE = NVIDIA Jetson UNKNOWN
+# environment
+LANG = C
+# environment
+TERM = linux
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=18/194=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 45825, inode 2752757): 11 files, no impossibilities.
+# /usr/src/jetson_multimedia_api/samples/common/classes (device 45825, inode 2752853): 35 files, no impossibilities.
+
+# 46 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+/usr/src/jetson_multimedia_api/samples/common/classes/%.o: /usr/src/jetson_multimedia_api/samples/common/classes/%.cpp
+#  recipe to execute (from 'Makefile', line 45):
+	$(AT)$(MAKE) -C $(CLASS_DIR)
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 48):
+	@echo "Compiling: $<"
+	$(CPP) $(CPPFLAGS) -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+../Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-25 14:56:28.167272698
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvDrmRenderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvElementProfiler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: video_decode
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+video_decode: video_decode_csvparser.o video_decode_main.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElementProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvElement.o /usr/src/jetson_multimedia_api/samples/common/classes/NvApplicationProfiler.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoConverter.o /usr/src/jetson_multimedia_api/samples/common/classes/NvDrmRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvLogging.o /usr/src/jetson_multimedia_api/samples/common/classes/NvEglRenderer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvUtils.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBuffer.o /usr/src/jetson_multimedia_api/samples/common/classes/NvJpegDecoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvVideoEncoder.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2ElementPlane.o /usr/src/jetson_multimedia_api/samples/common/classes/NvBufSurface.o /usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2Element.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-31 21:13:12.658713523
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 52):
+	@echo "Linking: $@"
+	$(CPP) -o $@ $(OBJS) $(CPPFLAGS) $(LDFLAGS) -L/opt/opencv_installed/lib  -lopencv_world
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvEglRenderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvJpegEncoder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-25 15:07:43.118945538
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+video_decode_main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-01 18:28:00.451427225
+#  File has been updated.
+#  Successfully updated.
+
+video_decode_csvparser.o: video_decode_csvparser.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'video_decode_csvparser'
+#  Last modified 2022-05-25 14:57:01.379441393
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 48):
+	@echo "Compiling: $<"
+	$(CPP) $(CPPFLAGS) -c $<
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvVideoEncoder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvVideoConverter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvBuffer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvUtils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvBufSurface.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	$(AT)rm -rf $(APP) $(OBJS)
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2ElementPlane.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvJpegDecoder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvLogging.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvVideoDecoder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvApplicationProfiler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+video_decode_main.o: video_decode_main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'video_decode_main'
+#  Last modified 2022-05-31 21:13:11.934708719
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := video_decode_main.o
+# automatic
+# % := 
+# automatic
+# * := video_decode_main
+# automatic
+# + := video_decode_main.cpp
+# automatic
+# | := 
+# automatic
+# < := video_decode_main.cpp
+# automatic
+# ^ := video_decode_main.cpp
+# automatic
+# ? := video_decode_main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/17=6%
+#  recipe to execute (from 'Makefile', line 48):
+	@echo "Compiling: $<"
+	$(CPP) $(CPPFLAGS) -c $<
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvElement.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/src/jetson_multimedia_api/samples/common/classes/NvV4l2Element.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+video_decode_csvparser.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-17 12:17:57
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=2/65=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 73 / storage = 2116 B / avg = 28 B
+# current buf: size = 8162 B / used = 2116 B / count = 73 / avg = 28 B
+
+# strcache performance: lookups = 93 / hit rate = 21%
+# hash-table stats:
+# Load=73/8192=1%, Rehash=0, Collisions=2/93=2%
+# Finished Make data base on Wed Jun  1 18:28:06 2022
+
+ 
